@@ -53,7 +53,7 @@
     =>
     (retract ?old)
    
-    (printout t ""$?a ?d crlf)
+    (printout t ""(implode$ $?a)?d crlf)
 )
 
 (defrule notfound
