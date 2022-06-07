@@ -1,0 +1,37 @@
+(deffacts MAIN::initial
+ 
+  (cell (row 1) (column 1) (status -))
+  (cell (row 1) (column 2) (status *))
+  (cell (row 1) (column 3) (status -))
+  (cell (row 1) (column 4) (status -))
+  (cell (row 1) (column 5) (status *))
+
+  (cell (row 2) (column 1) (status -))
+  (cell (row 2) (column 2) (status *))
+  (cell (row 2) (column 3) (status *))
+  (cell (row 2) (column 4) (status *))
+  (cell (row 2) (column 5) (status *))
+
+  (cell (row 3) (column 1) (status -))
+  (cell (row 3) (column 2) (status *))
+  (cell (row 3) (column 3) (status -))
+  (cell (row 3) (column 4) (status -))
+  (cell (row 3) (column 5) (status *))
+
+  (cell (row 4) (column 1) (status -))
+  (cell (row 4) (column 2) (status -))
+  (cell (row 4) (column 3) (status -))
+  (cell (row 4) (column 4) (status *))
+  (cell (row 4) (column 5) (status -))
+
+  (cell (row 5) (column 1) (status -))
+  (cell (row 5) (column 2) (status -))
+  (cell (row 5) (column 3) (status -))
+  (cell (row 5) (column 4) (status -))
+  (cell (row 5) (column 5) (status -))
+
+  (dimensions (rows 5) (columns 5))
+  (current-generation 0)
+  (last-generation 4)
+)
+
