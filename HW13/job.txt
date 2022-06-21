@@ -1,0 +1,10 @@
+(deffacts initial
+  (job (ID 1) (pay (40000 0) (40000 1) (40000 0)) (working-hours (40 0) (40 1) (40 0)) (away-from (17 0) (17 1) (17 0)) 
+       (company-profit (60 0) (60 1) (60 0)) (company-stock (55 0) (55 1) (55 0)))
+  (job (ID 2) (pay (30000 0) (30000 1) (30000 0)) (working-hours (35 0) (35 1) (35 0)) (away-from (12 0) (12 1) (12 0)) 
+       (company-profit (200 0) (200 1) (200 0)) (company-stock (87 0) (87 1) (87 0)))
+  (job (ID 3) (pay (50000 0) (50000 1) (50000 0)) (working-hours (45 0) (45 1) (45 0)) (away-from (50 0) (50 1) (50 0)) 
+       (company-profit (40 0) (40 1) (40 0)) (company-stock (20 0) (20 1) (20 0)))
+  (job (ID 4) (pay (27000 0) (27000 1) (27000 0)) (working-hours (32 0) (32 1) (32 0)) (away-from (5 0) (5 1) (5 0)) 
+       (company-profit (150 0) (150 1) (150 0)) (company-stock (293 0) (293 1) (293 0)))
+)
